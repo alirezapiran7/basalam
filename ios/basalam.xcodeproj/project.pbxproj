@@ -17,6 +17,9 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* basalamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* basalamTests.m */; };
+		6F4012DD25AC666900A67214 /* Estedad-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4012DA25AC666900A67214 /* Estedad-Medium.ttf */; };
+		6F4012DE25AC666900A67214 /* Estedad-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4012DB25AC666900A67214 /* Estedad-Bold.ttf */; };
+		6F4012DF25AC666900A67214 /* Estedad-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4012DC25AC666900A67214 /* Estedad-Black.ttf */; };
 		74C7A0E07FDC0ABE8BB22D57 /* libPods-basalam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 593095FC7AEE2A529ED0C09E /* libPods-basalam.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D57877745679CBEE1919E2D1 /* libPods-basalam-basalamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84797F8542CB57800BC44562 /* libPods-basalam-basalamTests.a */; };
@@ -51,6 +54,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = basalam/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = basalam/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = basalam/main.m; sourceTree = "<group>"; };
+		1E0839385ADC495597728F41 /* Estedad-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Estedad-Medium.ttf"; path = "../src/assets/fonts/Estedad-Medium.ttf"; sourceTree = "<group>"; };
 		227B7A5684C33DB2BF1D2A58 /* Pods-basalam-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basalam-tvOS.release.xcconfig"; path = "Target Support Files/Pods-basalam-tvOS/Pods-basalam-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2890B73B1930439EBEB4F18C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* basalam-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basalam-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,9 +62,13 @@
 		2D6D42C2E2F6428BBBB331D7 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		2EAD7036E7A8D56113E9A3F8 /* Pods-basalam-basalamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basalam-basalamTests.release.xcconfig"; path = "Target Support Files/Pods-basalam-basalamTests/Pods-basalam-basalamTests.release.xcconfig"; sourceTree = "<group>"; };
 		3174488D539846E19C16075D /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		46377E6931904A168BD0B913 /* Estedad-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Estedad-Bold.ttf"; path = "../src/assets/fonts/Estedad-Bold.ttf"; sourceTree = "<group>"; };
 		593095FC7AEE2A529ED0C09E /* libPods-basalam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basalam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		597130885614661C94A03C08 /* Pods-basalam-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basalam-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-basalam-tvOSTests/Pods-basalam-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		618F9C167DCD47E88056BEFD /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		6F4012DA25AC666900A67214 /* Estedad-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Estedad-Medium.ttf"; sourceTree = "<group>"; };
+		6F4012DB25AC666900A67214 /* Estedad-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Estedad-Bold.ttf"; sourceTree = "<group>"; };
+		6F4012DC25AC666900A67214 /* Estedad-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Estedad-Black.ttf"; sourceTree = "<group>"; };
 		6F6C86E4895046EAA0CF6E58 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		7183440F6866A4D874B0B61D /* Pods-basalam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basalam.release.xcconfig"; path = "Target Support Files/Pods-basalam/Pods-basalam.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = basalam/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,6 +81,7 @@
 		BB7398779AB2450C82A3E0DB /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		C41C830B63FB4D3282751B46 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		C52F53E093A34248997EBA49 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C70134A569254B58A2A14DBC /* Estedad-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Estedad-Black.ttf"; path = "../src/assets/fonts/Estedad-Black.ttf"; sourceTree = "<group>"; };
 		D3267CED9745402B97EE79EE /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		D84FB5F253B0C39C18B1D549 /* Pods-basalam-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basalam-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-basalam-tvOS/Pods-basalam-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D8CAADB7D27B64DD6D4801B7 /* libPods-basalam-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basalam-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +193,9 @@
 				6F6C86E4895046EAA0CF6E58 /* Octicons.ttf */,
 				D3267CED9745402B97EE79EE /* SimpleLineIcons.ttf */,
 				FE66131993524E2FA514371B /* Zocial.ttf */,
+				C70134A569254B58A2A14DBC /* Estedad-Black.ttf */,
+				46377E6931904A168BD0B913 /* Estedad-Bold.ttf */,
+				1E0839385ADC495597728F41 /* Estedad-Medium.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -198,6 +210,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				6F4012DC25AC666900A67214 /* Estedad-Black.ttf */,
+				6F4012DB25AC666900A67214 /* Estedad-Bold.ttf */,
+				6F4012DA25AC666900A67214 /* Estedad-Medium.ttf */,
 				13B07FAE1A68108700A75B9A /* basalam */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* basalamTests */,
@@ -379,7 +394,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4012DE25AC666900A67214 /* Estedad-Bold.ttf in Resources */,
+				6F4012DF25AC666900A67214 /* Estedad-Black.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				6F4012DD25AC666900A67214 /* Estedad-Medium.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

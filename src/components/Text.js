@@ -16,7 +16,7 @@ const CustomText =({children,style,...otherProps} ) => {
 }
 const styles = StyleSheet.create({
   def:{
-//  fontFamily:'Oswald-Medium',
+  fontFamily:'Estedad-Medium',
   }
 })
 export default CustomText

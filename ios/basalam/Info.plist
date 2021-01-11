@@ -55,6 +55,9 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Estedad-Black.ttf</string>
+		<string>Estedad-Bold.ttf</string>
+		<string>Estedad-Medium.ttf</string>
 		<string>AntDesign.ttf</string>
 		<string>Entypo.ttf</string>
 		<string>EvilIcons.ttf</string>
