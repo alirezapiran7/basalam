@@ -1,6 +1,6 @@
 
 const color = {
-    tint: '#E61A57',
+    tint: '#C92341',
     gradientStart: '#E61A57',
     // gradientEnd: '#6078ea',
     gradientEnd: '#E61A57',
@@ -17,7 +17,7 @@ const color = {
     background: '#ffffff',
 
     transparentBlack: 'rgba(0,0,0, 0.6)',
-    transparentWhite: 'rgba(256,256,256, 0.7)',
+    transparentWhite: 'rgba(256,256,256, 0.92)',
     transparentBlackHard: 'rgba(0,0,0, 0.9)',
 
     //nuono

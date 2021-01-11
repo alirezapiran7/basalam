@@ -19,14 +19,15 @@ import {
 import { Provider } from 'react-redux';
 import store from './src/redux/store'
 import { color } from './src/constants';
+import Navigation from './src/navigation'
 
 const App: () => React$Node = () => {
   return (
     <>
       <Provider store={store}>
         <StatusBar translucent={true} barStyle={'dark-content'} backgroundColor={color.transparent} />
-        <View style={{ flex: 1,justifyContent:'center',alignItems:'center' }}>
-        <Text>با سلام</Text>
+        <View style={{ flex: 1 }}>
+          <Navigation />
         </View>
       </Provider>
     </>

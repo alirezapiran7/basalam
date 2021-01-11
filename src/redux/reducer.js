@@ -1,4 +1,4 @@
-import { INCERMENT_ITEM_CART, DECREMENT_ITEM_CART } from './actionType'
+import { INCERMENT_ITEM_CART, DECREMENT_ITEM_CART, GET_ALL_ITEMS } from './actionType'
 
 const initialState = {}
 
@@ -9,6 +9,12 @@ export default (state = initialState, action) => {
 
         case DECREMENT_ITEM_CART:
             return { ...state, }
+
+        case GET_ALL_ITEMS:
+            return {
+                ...state,
+                [action.result]: action.value
+            };
 
         default:
             return state;
