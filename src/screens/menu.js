@@ -4,7 +4,7 @@ import { color } from '../constants'
 
 const menu = () => {
     return (
-        <View style={{flex:1,backgroundColor:color.black}}>
+        <View style={{flex:1,backgroundColor:color.white}}>
             <Text></Text>
         </View>
     )

@@ -17,7 +17,7 @@ const navigation = ({ navigation }) => {
                 initialRouteName="mainStack"
                 drawerPosition={"right"}
                 drawerType={'slide'}
-                drawerStyle={{ width: '100%' }}
+                drawerStyle={{ width: '70%' }}
                 screenOptions={{ headerShown: false }}
                 drawerContent={({ navigation }) => {
                     return (< Menu navigation={navigation} />)
